@@ -16,6 +16,11 @@ h1{
    font-size: 50px;
 }
 
+h1 a{
+	color: black;
+	text-decoration: none;
+}
+
 #igicon2 {
     position: absolute;
     top: 23%;
@@ -89,7 +94,6 @@ nav a:hover{
 footer{
 	clear:both;
 	width:100%;
-	border:1px solid black;
 	display: block;
 	text-align: center;
 	padding: 10px;
@@ -151,7 +155,7 @@ footer{
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color: #FFFFFF;
-    color: black;
+    color: #000000;
     font-size: 10px;
     padding-top: 16px;
     padding-bottom: 16px;
@@ -168,7 +172,7 @@ footer{
 }
 
 #igicon {
-    position: absolute;
+    position: fixed;
     top: 1.2%;
     right: 0.2%;
 	height: 30px;
@@ -177,6 +181,7 @@ footer{
     -ms-transform: translate(-50%, -50%);
     cursor: pointer;
 	opacity: 0.7;
+	z-index: 3;
 }
 
 #igicon:hover {
@@ -194,7 +199,7 @@ form.search input[type=text] {
 	opacity: 0.7;
 }
 
-form.search p {
+form.search button {
     position: absolute;
     top: 1.2%;
     right: 5%;
@@ -208,7 +213,7 @@ form.search p {
     background: url("srchlogo.gif") 0 0/ 100%;
 }
 
-form.search p:hover {
+form.search button:hover {
     background: #FFFFE0;
 }
 
@@ -308,6 +313,11 @@ form.search::after {
   overflow: hidden;
 }
 
+#t1 a{
+	text-decoration: none;
+	color: #008080;
+}
+
 .container2{
 	width:85%;
 	margin: 0 auto;
@@ -326,7 +336,7 @@ form.search::after {
 	padding-right: 20px;
 	font-family: 'Scheherazade', serif;
 	font-size: 20px;
-	color: black;
+	color: #000000;
 	line-height: 100%;
 	z-index: 1;
 }
@@ -343,12 +353,16 @@ form.search::after {
 	width: 25%;
 	text-align: center;
 	height: 20px;
-	font-family: 'Scheherazade', serif;
 	font-size: 20px;
-	color: black;
 	line-height: 100%;
 	margin-top: 15px;
 	z-index: 2;
+}
+
+.pri a{
+	color: #008080;
+	text-decoration:none;
+	font-family: 'Scheherazade', serif;
 }
 
 .Art1234{
@@ -390,8 +404,9 @@ form.search::after {
 	display: block;
 }
 
-#PA {
-	
+#PA a{
+	color: #008080;
+	text-decoration: none;
 }
 
 
@@ -415,6 +430,7 @@ form.search::after {
 /* PAGE A - ARTICLE */
 .pa{
 	width: 1280px;
+	z-index: 1;
 }
 
 #t2{
@@ -436,4 +452,22 @@ form.search::after {
 	margin: 0 auto;
 	margin-top: 50px;
 	padding: 30px;
+}
+
+
+/* PAGE COMING SOON */
+
+
+.sidetitle{
+	position: fixed;
+	z-index: 3;
+	left: 1.5%;
+	top: 3%;
+	font-family: 'Mrs Saint Delafield', cursive;
+	font-size: 30px;	
+}
+
+.sidetitle a{
+	color: #ffffff;
+	text-decoration: none;
 }
