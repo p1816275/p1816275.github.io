@@ -1,9 +1,9 @@
 *{box-sizing: border-box;}
 /* ALL PAGES */
 
-.body2 {
+.body {
 	width: 1280px;
-	margin: 0px;
+	margin: 0 auto;
 }
 
 h1{
@@ -104,12 +104,12 @@ footer{
 
 
 /* PAGE FRONT */
-.body1, html {
+.landingpage, html {
     height: 100%;
 	margin: 0px;
 }
 
-.body1 {
+.landingpage {
 	background: url("frontpage.jpg") 0 0/100%;	
 }
 
