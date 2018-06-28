@@ -363,7 +363,7 @@ form.search::after {
 	color: #008080;
 	text-decoration:none;
 	font-family: 'Scheherazade', serif;
-}
+ }
 
 .Art1234{
 	height:180px;
@@ -453,20 +453,9 @@ form.search::after {
 	padding: 30px;
 }
 
+/* COMING SOON */
 
-/* PAGE COMING SOON */
-
-
-.sidetitle{
-	position: fixed;
-	z-index: 3;
-	left: 1.5%;
-	top: 3%;
-	font-family: 'Mrs Saint Delafield', cursive;
-	font-size: 30px;	
-}
-
-.sidetitle a{
-	color: #ffffff;
-	text-decoration: none;
+.col81{
+	width: 12.5%;
+	padding-top: 5px;
 }
