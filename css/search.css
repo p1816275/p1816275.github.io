@@ -1,0 +1,39 @@
+#dialog-js-search {
+	max-width: 400px;
+}
+
+
+#dialog-js-search div.loading{
+	min-width: 400px;
+	min-height: 200px;
+	background-image: url('loading.gif');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#dialog-js-search div.message{
+	font-size: 12px;
+	min-width: 200px;
+	max-height: 200px;
+}
+
+#dialog-js-search div.message a{
+	font-size: 14px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#dialog-js-search .js-search-found-text{
+	background-color: #008080;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+#dialog-js-search div.message div.js-search-result-block{
+	margin-bottom: 10px;
+}
+
+div.js-search-result-block{
+	opacity: 1;
+
+}

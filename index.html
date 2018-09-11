@@ -2,24 +2,40 @@
 <html>
 <head>
 <title>FStudio61 Breathtaking World to See</title>
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel='icon' href='favicon.png' type='image/x-icon'/>
-<link rel="stylesheet" type="text/css" href="my-styles.css">
+
+<link rel='icon' href='images/favicon.png' type='image/x-icon'/>
+<link rel="stylesheet" type="text/css" href="css/search.css">
+<link rel="stylesheet" type="text/css" href="css/mystyles.css">
 <link href="https://fonts.googleapis.com/css?family=Mrs+Saint+Delafield" rel="stylesheet"> 
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="js/search.js"></script>
+
 </head>
 
 <body class="landingpage">
+
+<div id="dialog-js-search" title="Search Results">
+  <div class="loading"></div>  
+  <div class="message"></div>  
+</div>
+
 
 <div class="container1">
   <div class="centered1"> FStudio61 </div>
   <div class="centered2">Breathtaking World to See</div>
   <a href="fstudio_main.html"><button class="btn">Start</button></a>
-  <p id="igicon"><a href="https://www.instagram.com/fstudio61" target="_blank"><img src="iglogo.gif"></a></p>
+  <p id="igicon"><a href="https://www.instagram.com/fstudio61" target="_blank"><img src="images/iglogo.gif"></a></p>
 </div>
 
-<form class="search" action="fstudio_comingsoon.html">
-  <input type="text" placeholder="Search.." name="search">
-  <button type="submit"><p id="searchicon"></p></button>
+<form class="search" action="#" onsubmit="return false;">
+  <input class="js-search-text" type="text" placeholder="Search.." name="search">
+  <button class="js-search-now" type="submit"><p id="searchicon"></p></button>
 </form>
 
 </body>

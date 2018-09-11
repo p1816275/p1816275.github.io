@@ -2,10 +2,19 @@
 <html>
 <head>
 <title>Destination Category</title>
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel='icon' href='favicon.png' type='image/x-icon'/>
-<link rel="stylesheet" type="text/css" href="my-styles.css">
+
+<link rel='icon' href='images/favicon.png' type='image/x-icon'/>
+
+<link rel="stylesheet" type="text/css" href="css/mystyles.css">
 <link href="https://fonts.googleapis.com/css?family=Mrs+Saint+Delafield|Scheherazade|Shadows+Into+Light" rel="stylesheet"> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/myscripts.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	  
 <style>
 
 </style>
@@ -20,32 +29,56 @@ Click this header, FStudio61, to go to the landing page
 <nav>
 	<a href="fstudio_main.html" class="aa">Home</a>
 	<a href="fstudio_aboutme.html" class="aa">About Me</a>
-	<a href="fstudio_destinationcategory.html" class="aa">Travel</a>
+	<div class="dropdown">
+    <a href="fstudio_destinationcategory.html"><button class="dropbtn">Travel 
+      <i class="fa fa-caret-down"></i>
+    </button></a>
+    <div class="dropdown-content">
+      <a href="fstudio_categoryasia.html">Asia</a>
+      <a href="fstudio_categoryaustralia.html">Australia</a>
+      <a href="fstudio_others.html">Others</a>
+    </div>
+	</div> 
 	<a href="fstudio_comingsoonproducts.html" class="aa">Products</a>
 	<a href="fstudio_contact.html" class="aa">Contact</a>
-	<a href="https://www.instagram.com/fstudio61" target="_blank"><img src="iglogo.gif" img class="igicon2"></a>
+	<a href="https://www.instagram.com/fstudio61" target="_blank"><img src="images/iglogo.gif" img class="igicon2"></a>
 </nav>
 
-<img src="pdc.jpg" alt="Traveltips" img class="pa">
+<div class="topnav">
+  <a href="#home" class="ac"></a>
+  <div id="myLinks">
+	<a href="fstudio_main.html" class="ab">Home</a>
+	<a href="fstudio_aboutme.html" class="ab">About Me</a>
+	<a href="fstudio_destinationcategory.html" class="ab">Travel</a>
+	<a href="fstudio_comingsoonproducts.html" class="ab">Products</a>
+	<a href="fstudio_contact.html" class="ab">Contact</a>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+
+<img src="images/pdc.jpg" alt="Traveltips" img class="pa">
 <h2 id="t2"><b>Destination Category</b></h2>
 
 <div class="container5">
-<div class="column col3"><a href="fstudio_categoryasia.html"><img src="asia.jpg" alt="Asia" img class="c123"></a></div>
-<div class="column col3"><a href="fstudio_categoryaustralia.html"><img src="australia.jpg" alt="Australia" img class="c123"></a></div>
-<div class="column col3"><a href="fstudio_categoryothers.html"><img src="others.jpg" alt="Others" img class="c123"></a></div>
+<div class="column col3"><a href="fstudio_categoryasia.html"><img src="images/asia.jpg" alt="Asia" img class="c123"></a></div>
+<div class="column col3"><a href="fstudio_categoryaustralia.html"><img src="images/australia.jpg" alt="Australia" img class="c123"></a></div>
+<div class="column col3"><a href="fstudio_categoryothers.html"><img src="images/others.jpg" alt="Others" img class="c123"></a></div>
 </div>
  
 <br>
 
 <div class="container3">
-	<div class="column col8"><img src="b1.jpg" alt="Travel" img class="b1234"></div>
-	<div class="column col8"><img src="b2.jpg" alt="Travel" img class="b1234"></div>
-	<div class="column col8"><img src="b3.jpg" alt="Travel" img class="b1234"></div>
-	<div class="column col8"><img src="b4.jpg" alt="Travel" img class="b1234"></div>
-	<div class="column col8"><img src="b5.jpg" alt="Travel" img class="b1234"></div>
-	<div class="column col8"><img src="b6.jpg" alt="Travel" img class="b1234"></div>
-	<div class="column col8"><img src="b7.jpg" alt="Travel" img class="b1234"></div>
-	<div class="column col8"><img src="b8.jpg" alt="Travel" img class="b1234"></div>
+	<div class="column col8"><img src="images/b1.jpg" alt="Travel" img class="b1234"></div>
+	<div class="column col8"><img src="images/b2.jpg" alt="Travel" img class="b1234"></div>
+	<div class="column col8"><img src="images/b3.jpg" alt="Travel" img class="b1234"></div>
+	<div class="column col8"><img src="images/b4.jpg" alt="Travel" img class="b1234"></div>
+	<div class="column col8"><img src="images/b5.jpg" alt="Travel" img class="b1234"></div>
+	<div class="column col8"><img src="images/b6.jpg" alt="Travel" img class="b1234"></div>
+	<div class="column col8"><img src="images/b7.jpg" alt="Travel" img class="b1234"></div>
+	<div class="column col8"><img src="images/b8.jpg" alt="Travel" img class="b1234"></div>
 <footer> &#169; FStudio61.com Copyright &#169; 2018. All Rights Reserved</footer>
 </div>
 </body>
